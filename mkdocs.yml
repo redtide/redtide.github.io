@@ -1,62 +1,22 @@
+INHERIT: docs/common/config.yml
+
 site_name: "redtide"
-site_author: "redtide"
 site_url: "https://redtide.github.io"
 site_description: "Personal website"
-site_dir: "_site"
+
 #copyright: "Copyright &copy; 2019 - 2023 redtide"
 #repo_name: "GitHub"
 #repo_url: "https://github.com/redtide.github.io"
-remote_branch: "www"
 
 extra:
   homepage: "/en/"
-  generator: true
   social:
   - icon: "fontawesome/brands/github"
     link: "https://github.com/redtide/"
     name: "Me on GitHub"
-
-plugins:
-- search
-#- social
 
 nav:
 - "en/index.md"
 - Projects:
   - Notes: "/notes/en/"
   - X-AIR Wiki: "/wiki-x-air/en/"
-
-theme:
-  name: "material"
-  logo: "assets/img/logo.png"
-  favicon: "assets/ico/favicon.ico"
-  icon:
-    repo: "fontawesome/brands/github"
-    edit: "material/pencil"
-    view: "material/eye"
-  font: false
-  palette:
-  # Palette toggle for light mode
-  - media: "(prefers-color-scheme: light)"
-    scheme: "default"
-    primary: "black"
-    accent: "blue"
-    toggle:
-      icon: "material/weather-night"
-      name: "Switch to dark mode"
-  # Palette toggle for dark mode
-  - media: "(prefers-color-scheme: dark)"
-    scheme: "slate"
-    primary: "black"
-    accent: "blue"
-    toggle:
-      icon: "material/weather-sunny"
-      name: "Switch to light mode"
-  features:
-  - content.action.edit
-  - content.action.view
-  - content.code.copy
-  - header.autohide
-# - navigation.footer
-  - navigation.top
-# - toc.integrate
