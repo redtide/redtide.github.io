@@ -1,1 +1,1 @@
-{"config":{"lang":["en"],"separator":"[\\s\\-]+","pipeline":["stopWordFilter"]},"docs":[{"location":"","title":"Home","text":"<p>Personal website</p>"},{"location":"en/","title":"Home","text":"<p>Personal website</p>"}]}
+{"config":{"lang":["en"],"separator":"[\\s\\-]+","pipeline":["stopWordFilter"]},"docs":[{"location":"","title":"Home","text":"<p>Personal website</p>"},{"location":"common/","title":"website-common","text":"<p>Common files shared between projects' documentation</p>"},{"location":"en/","title":"Home","text":"<p>Personal website</p>"}]}
